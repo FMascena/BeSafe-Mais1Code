@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2023-07-11T03:01:45.928Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hQioht4-G60_tbkXMmVO" version="21.6.1" type="device">
+  <diagram name="Página-1" id="KXmVMS5v18_gO4YjC_hb">
+    <mxGraphModel dx="989" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hyOxJ673IvA1VyN-Kcuu-1" value="Usuários" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyOxJ673IvA1VyN-Kcuu-2" value="ID, nome, email, senha" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyOxJ673IvA1VyN-Kcuu-3" value="Dados Climáticos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyOxJ673IvA1VyN-Kcuu-4" value="Alerta de Desastre" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hyOxJ673IvA1VyN-Kcuu-5" value="Temperatura, umidade, precipitação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="130" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyOxJ673IvA1VyN-Kcuu-6" value="Tipo, localização, hora, gravidade" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
