@@ -3,23 +3,18 @@ import {
     Route,
     BrowserRouter,
   } from "react-router-dom";
+import Login from "./pages/Login";
+import Cadastro from "./pages/SignUp"
+import Home from "./pages/Home"
   
   
   export default function Routes() {
     return (
       <BrowserRouter>
-      <ScrollToTop />
         <WrapperRoutes>
           <Route path="/" element={<Home />} />
-          <Route path="/sobre" element={<About />} />
-          <Route path="/carrinho" element={<Cart />} />
-          <Route path="/catalogo" element={<Catalog />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/personalize" element={<Custom />} />
-          <Route path="/produto" element={<Product />} />
-          <Route path="/cadastro" element={<Register />} />
-          <Route path="/suporte" element={<Support />} />
-          <Route path="/*" element={<NotFoundPage />} />
+          <Route path="/cadastro" element={<Cadastro />} />
         </WrapperRoutes>
       </BrowserRouter>
     );

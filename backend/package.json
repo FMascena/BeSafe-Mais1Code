@@ -1,0 +1,25 @@
+{
+  "name": "besafe-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FMascena/BeSafe-Mais1Code.git"
+  },
+  "author": "felipe-mascena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FMascena/BeSafe-Mais1Code/issues"
+  },
+  "homepage": "https://github.com/FMascena/BeSafe-Mais1Code#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
