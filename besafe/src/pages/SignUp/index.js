@@ -1,11 +1,13 @@
 import React from "react";
+import Header from "../../components/Header";
 
-const Cadastro = () => {
+const SignUp = () => {
   return (
     <div>
+      <Header />
       <h1>Cadastro</h1>
     </div>
   );
-}
+};
 
-export default Cadastro;
+export default SignUp;
