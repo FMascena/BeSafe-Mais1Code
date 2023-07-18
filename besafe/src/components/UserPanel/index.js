@@ -7,7 +7,6 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { FiThumbsUp } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsShare } from "react-icons/bs";
-
 import { StyledPage  } from "./UserPanelStyles";
 
 
