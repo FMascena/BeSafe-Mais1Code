@@ -10,6 +10,13 @@ import { BsShare } from "react-icons/bs";
 
 import { StyledPage  } from "./UserPanelStyles";
 
+import PremiumButton from "../PremiumButton";
+
+
+
+
+
+
 
 const UserPanel = () => {
   return (
@@ -45,12 +52,22 @@ const UserPanel = () => {
         </li>
         <li>
           <BsShare />
-          <a href="/share">Compartilhe</a>
+          <a href="/share">Compartilhe</a>               
+        </li>
+        <li>
+        <PremiumButton/>
         </li>
       </ul>
+      
+
+
       </StyledPage>
+
+
   );
 };
+
+
 
 export default UserPanel;
 
