@@ -1,11 +1,19 @@
 import React from "react";
+import Header from "../../components/Header";
+import UserPanel from "../../components/UserPanel/index";
+import { SignUpWrapper } from "./SignUpStyles";
 
-const Cadastro = () => {
+
+
+
+
+const SignUp = () => {
   return (
-    <div>
-      <h1>Cadastro</h1>
-    </div>
+    <SignUpWrapper >
+      <Header />
+      <UserPanel />
+    </SignUpWrapper >
   );
-}
+};
 
-export default Cadastro;
+export default SignUp;
