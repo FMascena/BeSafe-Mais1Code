@@ -1,6 +1,6 @@
 import React from "react";
 import { HeaderWrapper, Logo, AppName } from "./HeaderStyles";
-import logoImage from "../../images/logo.png";
+import logoImage from "../../assets/logo.png";
 
 const Header = () => {
   return (

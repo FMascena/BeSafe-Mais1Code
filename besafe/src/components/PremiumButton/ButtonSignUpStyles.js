@@ -4,7 +4,7 @@ export const ButtonStyles = styled.button`
   display: flex;
   align-items: center;
   padding: 18px 20px; /* Aumenta o espaçamento vertical e horizontal do botão */
-  background-color: #007bff;
+  background-color: #0062BD;
   color: #ffffff; /* Cor do texto */
   border: none;
   border-radius: 10px;
