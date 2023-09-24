@@ -1,10 +1,13 @@
-const express = require('express');
+const express = require('express')
+const db = require ('./database')
+const cors = require('cors')
+
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Olá, mundo!');
-});
+app.use (cors())
 
-app.listen(3000, () => {
-  console.log('Servidor rodando na porta 3000');
-});
+db.hasConnection()
+
+app.use(express.json());
+
+module.exports = app;
