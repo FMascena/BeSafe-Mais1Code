@@ -27,6 +27,12 @@ export const Button = styled.button`
     left: auto; /* Resetar a posição esquerda para a padrão */
     border-radius: 10px; /* Voltar ao raio padrão */
   }
+
+  &:hover {
+    background: #0062BD; /* Altera a cor de fundo ao passar o mouse */
+    border-color: #171717; /* Altera a cor da borda ao passar o mouse */
+  }
+
 `;
 
 export const Text = styled.p`

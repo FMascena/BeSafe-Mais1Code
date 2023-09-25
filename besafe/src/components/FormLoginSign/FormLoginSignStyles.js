@@ -63,32 +63,4 @@ export const Button = styled.button`
   
 `;
 
-export const ForgotPasswordLink = styled.a`
-  text-decoration: none;
-  color: white;
-  margin-top: 10px;
-  width: 100%;
-  text-align: left;
 
-  @media (max-width: 768px) {
-    margin-top: 20px; 
-  }
-`;
-
-export const StyledFooterLogin = styled.div`
-  background: #171717;
-  text-align: center;
-  padding: 20px;
-`;
-
-export const Text = styled.p`
-  color: white;
-  font-family: Inter;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16.94px;
-
-  @media (max-width: 768px) {
-    font-size: 12px; /* Reduza o tamanho da fonte para dispositivos móveis */
-  }
-`;
